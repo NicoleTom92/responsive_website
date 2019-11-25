@@ -2,9 +2,16 @@ body {
     background-color:aquamarine;
 }
 
+p {
+    margin-left: left 5%;
+    margin-right: right 5%;
+}
+
+
 @media only screen and (max-width: 800px) {
-    body {
-        background-color: limegreen;
+    p {
+        margin-left:25%;
+        margin-right: 25%;
         }
     }
 
@@ -30,4 +37,11 @@ body {
 body {
     background-color: teal;
 }
+}
+
+@media screen and (min-width: 100px) {
+body {
+    font-size: 30px;
+    margin: 5px;
+    }
 }
